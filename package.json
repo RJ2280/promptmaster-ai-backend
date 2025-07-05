@@ -1,0 +1,21 @@
+{
+  "name": "promptmaster-backend",
+  "version": "1.0.0",
+  "description": "Backend server for PromptMaster AI",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "neo4j-driver": "^5.28.1",
+    "node-fetch": "^3.3.2",
+    "uuid": "^9.0.1"
+  }
+}

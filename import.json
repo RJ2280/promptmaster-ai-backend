@@ -1,0 +1,155 @@
+{
+  "lessons": [
+    {
+      "difficulty": "Beginner",
+      "estimatedTime": "15 mins",
+      "modelName": "General Prompting",
+      "description": "Learn the most crucial skill in prompt engineering: how to write clear, specific instructions to get predictable and useful results from any AI model.",
+      "id": "lesson-1-effective-open-ended-prompts",
+      "title": "Lesson 1: The Art of Clarity & Specificity",
+      "tags": "[\"Prompt Basics\",\"Clarity\",\"Specificity\"]",
+      "sections": [],
+      "quiz": []
+    },
+    {
+      "difficulty": "Beginner",
+      "estimatedTime": "20 mins",
+      "modelName": "Claude",
+      "description": "Discover how assigning a role or persona to an AI (e.g., 'Act as a historian') dramatically improves the quality, tone, and relevance of its responses.",
+      "id": "lesson-3-role-based-prompting",
+      "title": "Lesson 3: The Power of Personas",
+      "tags": "[\"Persona\",\"Role-playing\"]",
+      "sections": [],
+      "quiz": []
+    },
+    {
+      "difficulty": "Intermediate",
+      "estimatedTime": "25 mins",
+      "modelName": "GPT",
+      "description": "Teach an AI new formats, structures, or tasks by providing a few high-quality examples directly in your prompt. A powerful technique for complex outputs.",
+      "id": "lesson-7-few-shot-prompting",
+      "title": "Lesson 7: Few-Shot Prompting by Example",
+      "tags": "[\"Few-Shot\",\"Formatting\",\"Adaptation\"]",
+      "sections": [],
+      "quiz": []
+    },
+    {
+      "difficulty": "Intermediate",
+      "estimatedTime": "30 mins",
+      "modelName": "Gemini",
+      "description": "Unlock an AI's reasoning abilities by instructing it to \"think step-by-step.\" This lesson covers the fundamentals of CoT prompting for solving logic puzzles and multi-step problems.",
+      "id": "lesson-2-chain-of-thought",
+      "title": "Lesson 2: Advanced Reasoning with Chain-of-Thought",
+      "tags": "[\"Reasoning\",\"CoT\",\"Complex Tasks\"]",
+      "sections": [],
+      "quiz": []
+    },
+    {
+      "difficulty": "Intermediate",
+      "estimatedTime": "30 mins",
+      "modelName": "Gemini",
+      "description": "Learn techniques to compel an AI to return data in a specific, structured format like JSON or XML, essential for building robust AI-powered applications.",
+      "id": "lesson-8-structuring-output",
+      "title": "Lesson 8: Forcing Structured Output (JSON/XML)",
+      "tags": "[\"Data Formatting\",\"JSON\",\"Application Integration\"]",
+      "sections": [],
+      "quiz": []
+    },
+    {
+      "difficulty": "Advanced",
+      "estimatedTime": "35 mins",
+      "modelName": "Gemini",
+      "description": "Explore the exciting world of multimodal AI. Learn how to combine text instructions with visual context for richer, more nuanced interactions using Gemini's vision capabilities.",
+      "id": "lesson-5-multimodal-vision",
+      "title": "Lesson 5: Multimodal Prompting (Text + Image)",
+      "tags": "[\"Multimodal\",\"Vision\"]",
+      "sections": [],
+      "quiz": []
+    },
+    {
+      "difficulty": "Advanced",
+      "estimatedTime": "40 mins",
+      "modelName": "Gemini",
+      "description": "Break down large, complex tasks into a series of smaller, interconnected prompts. Learn how to chain prompts together, using the output of one as the input for the next.",
+      "id": "lesson-15-prompt-chaining",
+      "title": "Lesson 15: Prompt Chaining for Complex Workflows",
+      "tags": "[\"Workflows\",\"Automation\",\"Chaining\"]",
+      "sections": [],
+      "quiz": []
+    },
+    {
+      "difficulty": "Advanced",
+      "estimatedTime": "45 mins",
+      "modelName": "Cohere",
+      "description": "Understand the core concepts of RAG, a technique that grounds AI responses in a specific set of external documents, dramatically improving factual accuracy and reducing hallucinations.",
+      "id": "lesson-22-rag-basics",
+      "title": "Lesson 22: Retrieval-Augmented Generation (RAG) Explained",
+      "tags": "[\"RAG\",\"Grounding\",\"Factual Accuracy\"]",
+      "sections": [],
+      "quiz": []
+    },
+    {
+      "difficulty": "Advanced",
+      "estimatedTime": "50 mins",
+      "modelName": "Gemini",
+      "description": "Enable your AI to interact with external tools and APIs. Learn how to define functions, let the model choose when to call them, and integrate the results back into the conversation.",
+      "id": "lesson-31-function-calling",
+      "title": "Lesson 31: Gemini Function Calling",
+      "tags": "[\"Function Calling\",\"Tools\",\"API Integration\"]",
+      "sections": [],
+      "quiz": []
+    },
+    {
+      "difficulty": "Intermediate",
+      "estimatedTime": "35 mins",
+      "modelName": "Imagen",
+      "description": "Learn the specific vocabulary and structures for crafting effective image generation prompts. Cover concepts like style modifiers, camera angles, lighting, and composition.",
+      "id": "lesson-45-image-generation-prompts",
+      "title": "Lesson 45: Mastering Prompts for Image Generation",
+      "tags": "[\"Image Generation\",\"Art\",\"Style\"]",
+      "sections": [],
+      "quiz": []
+    },
+    {
+      "difficulty": "Advanced",
+      "estimatedTime": "60 mins",
+      "modelName": "Veo",
+      "description": "A comprehensive guide to Google's Veo model, covering cinematic vocabulary, shot types, and prompt structuring for generating high-quality video clips.",
+      "id": "lesson-53-veo-video-generation",
+      "title": "Lesson 53: Veo Crash Course - From Prompt to Video",
+      "tags": "[\"Video Generation\",\"Cinematic Prompts\"]",
+      "sections": [],
+      "quiz": []
+    }
+  ],
+  "models": [],
+  "tutorials": [
+    {
+      "goalDescription": "Your goal is to use Chain-of-Thought (CoT) prompting to solve a word problem correctly.",
+      "scenario": "You need an AI to solve a multi-step logic puzzle that requires careful reasoning. A simple prompt might fail, but by guiding the AI to \"think step-by-step,\" you can dramatically improve its accuracy.",
+      "id": "tutorial-cot-1",
+      "title": "Interactive Tutorial: Mastering Chain-of-Thought Reasoning",
+      "steps": "[{\"type\":\"info\",\"description\":\"Welcome! Chain-of-Thought (CoT) prompting doesn't just ask for an answer; it asks the AI to explain its reasoning process *before* giving the final answer. This mimics how humans think and reduces errors.\"},{\"type\":\"info\",\"description\":\"To trigger CoT, simply add a phrase like \\\"Let's think step by step\\\" to the end of your prompt.\"},{\"type\":\"interactive_prompt\",\"description\":\"Now it's your turn! Use the CoT technique to write a prompt for the following problem. Remember to include the magic phrase!\",\"example\":\"Problem: \\\"There are 15 trees in a park. A team plants 3 more rows of trees, with 5 trees in each row. Then, a storm knocks down 2 trees. How many trees are left in the park?\\\"\",\"interactive\":{\"placeholder\":\"Write your Chain-of-Thought prompt here...\"}},{\"type\":\"info\",\"description\":\"Congratulations! You've completed the Chain-of-Thought tutorial. You now have a powerful technique to improve AI accuracy on complex tasks.\"}]"
+    },
+    {
+      "goalDescription": "Your goal is to build a detailed, multi-layered AI persona that will analyze information from a specific, consistent perspective.",
+      "scenario": "You need an AI to review a historical document not as a generic text processor, but with the specific viewpoint of a skeptical, world-weary historian.",
+      "id": "tutorial-persona-2",
+      "title": "The Persona Architect: Crafting Expert AI Personalities",
+      "steps": "[{\"type\":\"info\",\"description\":\"Welcome to The Persona Architect! Standard 'Act as a...' prompts are good, but creating a deep persona gives you far more control. We'll use a three-layer model: Role, Tone, and Knowledge.\"},{\"type\":\"interactive_prompt\",\"description\":\"Let's build one. Your task: Write a persona prompt for a cynical film critic who hates clichés. The AI will be used to review a generic movie plot.\",\"example\":\"Movie Plot to Review: A small-town hero discovers a hidden talent and, against all odds, wins a national competition, finding love along the way.\",\"interactive\":{\"placeholder\":\"You are a... Your tone is... You are an expert in...\"}},{\"type\":\"info\",\"description\":\"Congratulations! You've learned how to architect detailed personas. This technique is invaluable for generating high-quality, specialized content.\"}]"
+    }
+  ],
+  "prompts": [],
+  "users": [
+    {
+      "id": "469dc28b-7441-4969-9449-3f770ba79786",
+      "passwordHash": "$2b$10$SZzDxyNK1NmYxQEf5NFfdelkdt1EVwTUG6RqsOB0OIniaYZZOZHA.",
+      "username": "robbie"
+    },
+    {
+      "id": "47e52284-aac4-4851-9c9b-b1dd6453c071",
+      "passwordHash": "$2b$10$Vqj7cV2V5AIf/3zbWa8Eb.7Dvsf7lk7VjPRJH3CHM3isTFgwMHM0u",
+      "username": "robbienosebest@gmail.com"
+    }
+  ]
+}
